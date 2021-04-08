@@ -1,0 +1,18 @@
+{
+  "name": "tdd-node-mocha-chai-imasters",
+  "version": "1.0.0",
+  "description": "Repositório responsável pelos códigos de exemplo desenvolvidos no artigo do iMasters",
+  "scripts": {
+    "test": "mocha ./src/test/**/*test.js"
+  },
+  "main": "index.js",
+  "directories": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "chai": "^4.1.2"
+  },
+  "devDependencies": {
+    "mocha": "^5.0.2"
+  }
+}
